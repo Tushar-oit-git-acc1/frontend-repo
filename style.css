@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 0px 30px;
+}
+.nav > div{
+  //  border: 1px solid black;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    font-weight: 700;
+    color: darkgreen;
+    font-size: 15px;
+
+}
+.signin,.login{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+}
+.logo > img{
+    height: 100px;
+}
